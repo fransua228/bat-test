@@ -7,11 +7,6 @@ const WebSocket = require('ws')
 
 const port = process.env.PORT;
 
-const commands = [
-    'xz',
-    'my',
-]
-
 const execFunction = (err, stdout, stderr) => {
     if (err) return console.error(err);
     console.log(stdout);

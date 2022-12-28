@@ -1,7 +1,6 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-const axios = require('axios')
 const { exec } = require('child_process')
 const {join} = require('path')
 const WebSocket = require('ws')
